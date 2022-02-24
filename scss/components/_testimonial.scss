@@ -1,0 +1,41 @@
+@use "../abstracts/variables" as vars;
+@use "../abstracts/colors";
+@use "../abstracts/breakpoints" as *;
+
+.testimonial {
+  max-width: 50rem;
+  margin: 0 auto;
+  display: grid;
+  gap: 2.3rem;
+
+  @include breakpoint("lg", "min") {
+    max-width: 111rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+  }
+
+  &-header {
+    text-align: center;
+
+    @include breakpoint("lg", "min") {
+      max-width: 48rem;
+      text-align: start;
+    }
+  }
+
+  &-title {
+    color: colors.$very-dark-magenta;
+    font-size: 3.2rem;
+    line-height: vars.$line-height-small;
+    letter-spacing: -0.1rem;
+    margin-bottom: 2.2rem;
+
+    @include breakpoint("lg", "min") {
+      font-size: 4.6rem;
+    }
+  }
+
+  &-desc {
+    letter-spacing: -0.05rem;
+  }
+}

@@ -1,0 +1,58 @@
+@use "../abstracts/colors";
+@use "../abstracts/variables" as vars;
+@use "../abstracts/breakpoints" as *;
+
+.rating-list {
+  @include breakpoint("xl", "min") {
+    margin-left: -2.5rem;
+  }
+}
+
+.rating-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-weight: vars.$font-weight-bold;
+  color: colors.$very-dark-magenta;
+  background-color: colors.$light-grayish-magenta;
+  border-radius: 0.7rem;
+  margin: 1.8rem 0;
+  padding: 1.5rem;
+
+  @include breakpoint("lg", "min") {
+    position: relative;
+    flex-direction: row;
+    gap: 3rem;
+    max-width: 45rem;
+    padding: 1.8rem;
+  }
+
+  @include breakpoint("xl", "min") {
+    &:nth-of-type(2) {
+      left: 5rem;
+    }
+
+    &:nth-of-type(3) {
+      left: 10rem;
+    }
+  }
+}
+
+.rating-stars {
+  display: flex;
+  gap: 0.8rem;
+
+  @include breakpoint("lg", "min") {
+    margin-left: 1.7rem;
+  }
+
+  img {
+    width: 1.7rem;
+    height: 1.6rem;
+  }
+}
+
+.rating-desc {
+  font-size: 1.3rem;
+}
