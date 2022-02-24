@@ -209,6 +209,11 @@ body {
   min-height: 100vh;
   padding: 8rem 2.4rem;
 }
+@media (min-width: 992px) {
+  .main {
+    padding: 13rem 2.4rem;
+  }
+}
 
 .testimonial {
   max-width: 50rem;
