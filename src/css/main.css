@@ -211,14 +211,14 @@ body {
 }
 
 .testimonial {
-  max-width: 500px;
+  max-width: 50rem;
   margin: 0 auto;
   display: grid;
   gap: 2.3rem;
 }
 @media (min-width: 992px) {
   .testimonial {
-    max-width: 1110px;
+    max-width: 111rem;
     grid-template-columns: repeat(2, 1fr);
     gap: 6rem;
   }
