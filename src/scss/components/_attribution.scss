@@ -1,0 +1,15 @@
+@use "../abstracts/colors";
+
+.attribution {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  font-size: 1.2rem;
+  color: colors.$dark-grayish-magenta;
+
+  a {
+    color: #3e52a3;
+  }
+}
