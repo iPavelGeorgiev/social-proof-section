@@ -210,4 +210,42 @@ body {
   padding: 8rem 2.4rem;
 }
 
+.testimonial {
+  max-width: 500px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2.3rem;
+}
+@media (min-width: 992px) {
+  .testimonial {
+    max-width: 1110px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+  }
+}
+.testimonial-header {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .testimonial-header {
+    max-width: 48rem;
+    text-align: start;
+  }
+}
+.testimonial-title {
+  color: #502050;
+  font-size: 3.2rem;
+  line-height: 1;
+  letter-spacing: -0.1rem;
+  margin-bottom: 2.2rem;
+}
+@media (min-width: 992px) {
+  .testimonial-title {
+    font-size: 4.6rem;
+  }
+}
+.testimonial-desc {
+  letter-spacing: -0.05rem;
+}
+
 /*# sourceMappingURL=main.css.map */
