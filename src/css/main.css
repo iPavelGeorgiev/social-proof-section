@@ -248,4 +248,58 @@ body {
   letter-spacing: -0.05rem;
 }
 
+@media (min-width: 1200px) {
+  .rating-list {
+    margin-left: -2.5rem;
+  }
+}
+
+.rating-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 700;
+  color: #502050;
+  background-color: #f7f2f7;
+  border-radius: 0.7rem;
+  margin: 1.8rem 0;
+  padding: 1.5rem;
+}
+@media (min-width: 992px) {
+  .rating-item {
+    position: relative;
+    flex-direction: row;
+    gap: 3rem;
+    max-width: 45rem;
+    padding: 1.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  .rating-item:nth-of-type(2) {
+    left: 5rem;
+  }
+  .rating-item:nth-of-type(3) {
+    left: 10rem;
+  }
+}
+
+.rating-stars {
+  display: flex;
+  gap: 0.8rem;
+}
+@media (min-width: 992px) {
+  .rating-stars {
+    margin-left: 1.7rem;
+  }
+}
+.rating-stars img {
+  width: 1.7rem;
+  height: 1.6rem;
+}
+
+.rating-desc {
+  font-size: 1.3rem;
+}
+
 /*# sourceMappingURL=main.css.map */
