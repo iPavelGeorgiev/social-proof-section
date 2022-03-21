@@ -1,17 +1,8 @@
-# Frontend Mentor - Four card feature section
+# Social proof section
 
-This is my solution to the [social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor is a site where people can come to improve their front-end coding skills by building projects in a real-life workflow.
+![Responsive mockup](design/desktop-preview.jpg)
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
+This is my solution to the [social proof section challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor is a platform where developers can learn and improve their frontend development skills alongside other developers by implementing solutions to challenges. Each challenge includes designs (both mobile and desktop), assets, and a style guide to get you started. The rest is up to you!
 
 ## Overview
 
@@ -21,9 +12,11 @@ The challenge is to build out this social proof section and get it looking as cl
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
+- View the optimal layout depending on their device's screen size.
 
-### Screenshot
+I don't have access to the premium Figma/Sketch files, so the design is not pixel perfect.
+
+### Screenshots
 
 <details>
   <summary>Desktop design</summary>
@@ -39,8 +32,8 @@ Users should be able to:
 
 ### Links
 
+- [Live Site URL](https://pavel-frontend-mentor.github.io/social-proof-section/)
 - [Solution URL](https://www.frontendmentor.io/solutions/social-proof-section-h9dXlr3dB)
-- [Live Site URL](https://pavel-frontend-mentor-projects.github.io/social-proof-section/)
 
 ## My process
 
@@ -48,13 +41,13 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - SCSS
-- Flexbox & CSS Grid
+- Flexbox
+- CSS Grid
 - Mobile-first workflow
-- [Perfect Pixel](https://www.welldonecode.com/perfectpixel)
 
 ### What I learned
 
-I used this challenge as an opportunity to practice the Mobile-first approach.
+I used this challenge as an opportunity to practice the Mobile-first approach. It may seem like more work, but it saves a lot of time and code in the long run.
 
 ## Author
 
