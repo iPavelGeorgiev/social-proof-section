@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/pavel-frontend-mentor/social-proof-section",
   "name": "social-proof-section",
   "version": "1.0.0",
   "description": "Frontend Mentor Challenge",
@@ -9,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavel-frontend-mentor-projects/social-proof-section.git"
+    "url": "git+https://github.com/pavel-frontend-mentor/social-proof-section.git"
   },
   "author": "Pavel Georgiev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pavel-frontend-mentor-projects/social-proof-section/issues"
+    "url": "https://github.com/pavel-frontend-mentor/social-proof-section/issues"
   },
-  "homepage": "https://github.com/pavel-frontend-mentor-projects/social-proof-section#readme",
+  "homepage": "https://github.com/pavel-frontend-mentor/social-proof-section#readme",
   "devDependencies": {
     "gh-pages": "^3.2.3",
     "sass": "^1.49.7"
