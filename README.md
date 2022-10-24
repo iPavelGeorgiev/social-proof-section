@@ -32,7 +32,7 @@ I don't have access to the premium Figma/Sketch files, so the design is not pixe
 
 ### Links
 
-- [Live Site URL](https://pavel-frontend-mentor.github.io/social-proof-section/)
+- [Live Site URL](https://ipavelgeorgiev.github.io/social-proof-section/)
 - [Solution URL](https://www.frontendmentor.io/solutions/social-proof-section-h9dXlr3dB)
 
 ## My process
@@ -48,6 +48,32 @@ I don't have access to the premium Figma/Sketch files, so the design is not pixe
 ### What I learned
 
 I used this challenge as an opportunity to practice the Mobile-first approach. It may seem like more work, but it saves a lot of time and code in the long run.
+
+### Run locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/iPavelGeorgiev/social-proof-section.git
+```
+
+Go to the project directory
+
+```bash
+  cd social-proof-section
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
 
 ## Author
 
